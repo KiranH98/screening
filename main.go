@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
-	setupJsonApi()
+	initDB()
+	setupJSONAPI()
 	http.ListenAndServe(":80", nil)
 }
